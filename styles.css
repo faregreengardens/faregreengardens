@@ -14,7 +14,7 @@ body {
 
 header {
     width: 100%;
-    height: clamp(60px, 7vw, 100px);
+    height: clamp(70px, 7vw, 100px);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -22,39 +22,39 @@ header {
     color: rgb(0, 0, 0);
     background-color: rgba(218, 210, 233);
     font-family: Roboto;
-    font-size: clamp(24px, 4vw, 56px);
-    border-bottom: clamp(6px, 1vw, 14px) solid rgba(215, 235, 208);
+    font-size: clamp(32px, 4vw, 56px);
+    border-bottom: clamp(8px, 1vw, 14px) solid rgba(215, 235, 208);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 header b {
-    margin-left: clamp(10px, 1.5vw, 25px);
+    margin-left: clamp(15px, 1.5vw, 25px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-right: clamp(10px, 1.5vw, 25px);
+    padding-right: clamp(15px, 1.5vw, 25px);
 }
 
 .nav-links {
     display: flex;
-    gap: clamp(12px, 2vw, 30px);
+    gap: clamp(15px, 2vw, 30px);
     list-style: none;
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: clamp(14px, 1.4vw, 20px);
+    font-size: clamp(18px, 1.4vw, 20px);
 }
 
 .hamburger {
     display: none;
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
-    color: black;
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
+    color: white;
     cursor: pointer;
 }
 
@@ -115,29 +115,29 @@ button {
   position: relative;
   z-index: 2;
   color: white;
-  font-size: clamp(14px, 2.5vw, 32px);
+  font-size: clamp(20px, 2.5vw, 32px);
   margin: 0;
-  padding: clamp(6px, 1.2vw, 18px);
+  padding: clamp(10px, 1.2vw, 18px);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .learn-btn {
   position: relative;
   z-index: 2;
-  padding: clamp(5px, 1vw, 12px) clamp(12px, 2.2vw, 32px);
+  padding: clamp(8px, 1vw, 12px) clamp(18px, 2.2vw, 32px);
   border: none;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.7);
   color: white;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(15px, 1.6vw, 20px);
   cursor: pointer;
   transition: 0.2s;
-  width: clamp(80px, 12vw, 170px);
-  margin: 0 auto clamp(8px, 1.8vw, 22px) auto;
+  width: clamp(110px, 12vw, 170px);
+  margin: 0 auto clamp(12px, 1.8vw, 22px) auto;
 }
 
 .learn-btn:hover {
-  background: rgba(218, 210, 233);
+  background: #00bfff;
 }
 
 .main-body {
@@ -155,8 +155,8 @@ button {
 }
 
 .main-body p {
-    font-size: clamp(14px, 1.6vw, 22px);
-    padding-bottom: clamp(10px, 1.5vw, 20px);
+    font-size: clamp(18px, 1.6vw, 22px);
+    padding-bottom: clamp(14px, 1.5vw, 20px);
     text-align: justify;
 }
 
@@ -182,22 +182,23 @@ button {
 
 .main-logo {
     display: block;
-    width: clamp(80px, 10vw, 150px);
-    height: clamp(80px, 10vw, 150px);
-    margin: 0 auto clamp(10px, 1.5vw, 20px) auto;
+    width: clamp(100px, 10vw, 150px);
+    height: clamp(100px, 10vw, 150px);
+    margin: 0 auto clamp(14px, 1.5vw, 20px) auto;
 }
 
 footer {
     color: black;
     background-color: rgba(218, 210, 233);
-    padding: clamp(8px, 1vw, 16px) clamp(10px, 1.5vw, 24px);
+    padding: clamp(12px, 1vw, 16px) clamp(15px, 1.5vw, 24px);
     font-family: Roboto;
-    font-size: clamp(14px, 1.4vw, 20px);
+    font-size: clamp(16px, 1.4vw, 20px);
 }
 
 footer h2 {
-    font-size: clamp(18px, 2vw, 28px);
+    font-size: clamp(22px, 2vw, 28px);
 }
+
 @media (max-width: 1025px) {
     .hamburger {
         display: block;
