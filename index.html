@@ -7,55 +7,73 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <b>Fare Green Gardens</b> 
-        <nav class="navbar">
-             <ul class="nav-links" id="navLinks">
-                 <li><a href="#">Home</a></li>
-                 <li><a href="#">About</a></li>
-                 <li><a href="#">Classes</a></li>
-                 <li><a href="#">Events</a></li>
-                 <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="main-body">
-        <h1>Fare Green Gardens</h1>
-        <p> Description of the Company</p>
-        <div class="slider-container">
-            <button class="prev" onclick="moveSlide(-1)">❮</button>
-            <div class="slider-wrapper">
-                <div class="slider" id="slider">
-                    <div class="box">
-                        <h2>Vegetables</h2>
-                        <button class="learn-btn" onclick="boxClicked(1)">Learn More</button>
+
+
+<header>
+    <b>Fare Green Gardens</b> 
+    <div class="hamburger" id="hamburger">☰</div>
+    <nav class="navbar">
+         <ul class="nav-links" id="navLinks">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Products</a></li>
+             <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="main-body-container">
+        <div class="hero">
+            <img src="images/16-9-farm01.jpg" alt="Green Garden" class="main-image">
+            <div class="main-body">
+                <img src="images/logo012.png" alt="Fare Green Gardens Logo" class="main-logo">
+                <p> Fare Green Gardens is a family owned micro-farm comprised of several organic urban gardens located in Springfield, Ohio.
+                    We provide the freshest possible vegetables and flowers to you by using organic and regenerative practices.  We are commit 
+                    to doing this in a sustainable manner with respect for the environment and commitment to the community.</p>
+                <div class="slider-container">
+                    <button class="prev" onclick="moveSlide(-1)">❮</button>
+                    <div class="slider-wrapper">
+                        <div class="slider" id="slider">
+                            <div class="box">
+                                <h2>Vegetables</h2>
+                                <button class="learn-btn" onclick="boxClicked(1)">Learn More</button>
+                                <img src="images/homeSliderVegetable.jpg" alt="Vegetables" class="box-image">
+                            </div>
+                            <div class="box">
+                                <h2>Flowers</h2>
+                                <button class="learn-btn" onclick="boxClicked(2)">Learn More</button>
+                                <img src="images/homeSliderFlower.jpg" alt="Flowers" class="box-image">
+                            </div>
+                            <div class="box">
+                                <h2>Plants</h2>
+                                <button class="learn-btn" onclick="boxClicked(3)">Learn More</button>
+                                <img src="images/homeSliderPlant.jpg" alt="Plants" class="box-image">
+                            </div>
+                            <div class="box">
+                                <h2>Herbs</h2>
+                                <button class="learn-btn" onclick="boxClicked(4)">Learn More</button>
+                                <img src="images/HomeSliderHerb.jpg" alt="Herbs" class="box-image">
+                            </div>
+                            <div class="box">
+                                <h2>Farmers Market</h2>
+                                <button class="learn-btn" onclick="boxClicked(5)">Learn More</button>
+                                <img src="images/homeSliderFarmer.jpg" alt="Farmers Market" class="box-image">
+                            </div>
+                            <div class="box">
+                                <h2>Other</h2>
+                                <button class="learn-btn" onclick="boxClicked(6)">Learn More</button>
+                                <img src="images/homeSliderOther.jpg" alt="Other" class="box-image">
+                            </div>
+                        </div>
                     </div>
-                    <div class="box">
-                        <h2>Flowers</h2>
-                        <button class="learn-btn" onclick="boxClicked(2)">Learn More</button>
-                    </div>
-                    <div class="box">
-                        <h2>Plants</h2>
-                        <button class="learn-btn" onclick="boxClicked(3)">Learn More</button>
-                    </div>
-                    <div class="box">
-                        <h2>Herbs</h2>
-                        <button class="learn-btn" onclick="boxClicked(4)">Learn More</button>
-                    </div>
-                    <div class="box">
-                        <h2>Farmers Market</h2>
-                        <button class="learn-btn" onclick="boxClicked(5)">Learn More</button>
-                    </div>
-                    <div class="box">
-                        <h2>Other</h2>
-                        <button class="learn-btn" onclick="boxClicked(6)">Learn More</button>
-                    </div>
+                    <button class="next" onclick="moveSlide(1)">❯</button>
                 </div>
             </div>
-            <button class="next" onclick="moveSlide(1)">❯</button>
         </div>
     </div>
+    
+
     <footer>
         <h2>Contacts:</h2>
             <div class="sign-up">
