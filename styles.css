@@ -20,10 +20,10 @@ header {
     z-index: 1000;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
-    background-color: rgba(218, 210, 233);
+    background-color: #d0c3f1;
     font-family: Roboto;
     font-size: clamp(32px, 4vw, 56px);
-    border-bottom: clamp(8px, 1vw, 14px) solid rgba(215, 235, 208);
+    border-bottom: clamp(8px, 1vw, 2px) solid #fef1ab; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,7 +46,7 @@ header b {
 }
 
 .nav-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: clamp(18px, 1.4vw, 20px);
 }
@@ -189,7 +189,7 @@ button {
 
 footer {
     color: black;
-    background-color: rgba(218, 210, 233);
+    background-color: #d0c3f1;
     padding: clamp(12px, 1vw, 16px) clamp(15px, 1.5vw, 24px);
     font-family: Roboto;
     font-size: clamp(16px, 1.4vw, 20px);
